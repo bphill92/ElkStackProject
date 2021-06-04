@@ -82,9 +82,8 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the Elk2playbook.yml file to ansible containter Funny_robinson.
+- Copy the Elk2playbook.yml file to ansible containter (example mine is Funny_robinson).
 - Update the etc/ansible/hosts file to include the Web servers Web-1, Web-2, Web-3.
 - Run the playbook, and navigate to the Elk server (ProjectVM1) to check that the installation worked as expected.
       -http://52.242.79.45:5601/app/kibana#/home
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
